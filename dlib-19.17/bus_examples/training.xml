@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<?xml-stylesheet type='text/xsl' href='image_metadata_stylesheet.xsl'?>
+<dataset>
+<name>imglab dataset</name>
+<comment>Created by imglab tool.</comment>
+<images>
+  <image file='/home/computervision/Imagens/hog_detector/dlib-19.17/bus_examples/1201_ea8a_1244_c8d5.jpg'>
+    <box top='128' left='464' width='234' height='40'/>
+  </image>
+  <image file='/home/computervision/Imagens/hog_detector/dlib-19.17/bus_examples/2a9cb9c9fb2de004890b6327571ac878.jpg'>
+    <box top='71' left='286' width='155' height='44'/>
+  </image>
+  <image file='/home/computervision/Imagens/hog_detector/dlib-19.17/bus_examples/8c8e256b27e88ce610b3ba5439b8fc80.jpg'>
+    <box top='97' left='417' width='165' height='48'/>
+  </image>
+  <image file='/home/computervision/Imagens/hog_detector/dlib-19.17/bus_examples/8fa2fea757591e65d322fe3872469532.jpg'>
+    <box top='95' left='85' width='164' height='39'/>
+  </image>
+  <image file='/home/computervision/Imagens/hog_detector/dlib-19.17/bus_examples/BRT 1.jpg'>
+    <box top='202' left='266' width='168' height='34'/>
+    <box top='188' left='482' width='144' height='35'/>
+  </image>
+  <image file='/home/computervision/Imagens/hog_detector/dlib-19.17/bus_examples/a3327398867ff96d3574cf317d296dc2.jpg'>
+    <box top='49' left='329' width='231' height='51'/>
+  </image>
+  <image file='/home/computervision/Imagens/hog_detector/dlib-19.17/bus_examples/b8c9d5f3a75d656d82965a1ef1674361.jpg'>
+    <box top='41' left='139' width='167' height='37'/>
+  </image>
+  <image file='/home/computervision/Imagens/hog_detector/dlib-19.17/bus_examples/c6b87eacf90c11e05f35a16a53e35565.jpg'>
+    <box top='23' left='355' width='154' height='43'/>
+  </image>
+  <image file='/home/computervision/Imagens/hog_detector/dlib-19.17/bus_examples/download.jpeg'>
+    <box top='22' left='168' width='82' height='16'/>
+  </image>
+  <image file='/home/computervision/Imagens/hog_detector/dlib-19.17/bus_examples/fortaleza.jpg'>
+    <box top='113' left='594' width='272' height='62'/>
+  </image>
+  <image file='/home/computervision/Imagens/hog_detector/dlib-19.17/bus_examples/images (1).jpeg'>
+    <box top='11' left='46' width='115' height='23'/>
+  </image>
+  <image file='/home/computervision/Imagens/hog_detector/dlib-19.17/bus_examples/images.jpeg'>
+    <box top='55' left='94' width='61' height='17'/>
+  </image>
+  <image file='/home/computervision/Imagens/hog_detector/dlib-19.17/bus_examples/nely_rosa_11_1.jpg'>
+    <box top='154' left='512' width='258' height='57'/>
+  </image>
+  <image file='/home/computervision/Imagens/hog_detector/dlib-19.17/bus_examples/onibus-extra-fortaleza.jpg'>
+    <box top='368' left='308' width='845' height='141'/>
+    <box top='638' left='2158' width='429' height='83'/>
+  </image>
+  <image file='/home/computervision/Imagens/hog_detector/dlib-19.17/bus_examples/onibus-fortaleza1.jpg'>
+    <box top='19' left='46' width='187' height='41'/>
+  </image>
+  <image file='/home/computervision/Imagens/hog_detector/dlib-19.17/bus_examples/onibus.jpg'>
+    <box top='87' left='413' width='129' height='33'/>
+  </image>
+  <image file='/home/computervision/Imagens/hog_detector/dlib-19.17/bus_examples/ônibus siqueira - josé bastos empresa cearense.JPG'>
+    <box top='162' left='462' width='185' height='39'/>
+  </image>
+</images>
+</dataset>

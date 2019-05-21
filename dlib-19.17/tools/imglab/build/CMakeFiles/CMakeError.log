@@ -1,0 +1,97 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/computervision/Imagens/hog_detector/dlib-19.17/tools/imglab/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1ced0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1ced0.dir/build.make CMakeFiles/cmTC_1ced0.dir/build
+make[1]: Entering directory '/home/computervision/Imagens/hog_detector/dlib-19.17/tools/imglab/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1ced0.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_1ced0.dir/CheckSymbolExists.c.o   -c /home/computervision/Imagens/hog_detector/dlib-19.17/tools/imglab/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_1ced0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1ced0.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_1ced0.dir/CheckSymbolExists.c.o  -o cmTC_1ced0 
+CMakeFiles/cmTC_1ced0.dir/CheckSymbolExists.c.o: Na função "main":
+CheckSymbolExists.c:(.text+0x1b): referência não definida para "pthread_create"
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_1ced0.dir/build.make:97: recipe for target 'cmTC_1ced0' failed
+make[1]: *** [cmTC_1ced0] Error 1
+make[1]: Leaving directory '/home/computervision/Imagens/hog_detector/dlib-19.17/tools/imglab/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_1ced0/fast' failed
+make: *** [cmTC_1ced0/fast] Error 2
+
+File /home/computervision/Imagens/hog_detector/dlib-19.17/tools/imglab/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/computervision/Imagens/hog_detector/dlib-19.17/tools/imglab/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e62c9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e62c9.dir/build.make CMakeFiles/cmTC_e62c9.dir/build
+make[1]: Entering directory '/home/computervision/Imagens/hog_detector/dlib-19.17/tools/imglab/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e62c9.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_e62c9.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e62c9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e62c9.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_e62c9.dir/CheckFunctionExists.c.o  -o cmTC_e62c9 -lpthreads 
+/usr/bin/ld: não foi possível localizar -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_e62c9.dir/build.make:97: recipe for target 'cmTC_e62c9' failed
+make[1]: *** [cmTC_e62c9] Error 1
+make[1]: Leaving directory '/home/computervision/Imagens/hog_detector/dlib-19.17/tools/imglab/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_e62c9/fast' failed
+make: *** [cmTC_e62c9/fast] Error 2
+
+
+Determining if the function sgesv exists failed with the following output:
+Change Dir: /home/computervision/Imagens/hog_detector/dlib-19.17/tools/imglab/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_db8a0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_db8a0.dir/build.make CMakeFiles/cmTC_db8a0.dir/build
+make[1]: Entering directory '/home/computervision/Imagens/hog_detector/dlib-19.17/tools/imglab/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_db8a0.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sgesv   -o CMakeFiles/cmTC_db8a0.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_db8a0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_db8a0.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sgesv    -rdynamic CMakeFiles/cmTC_db8a0.dir/CheckFunctionExists.c.o  -o cmTC_db8a0 
+CMakeFiles/cmTC_db8a0.dir/CheckFunctionExists.c.o: Na função "main":
+CheckFunctionExists.c:(.text+0x10): referência não definida para "sgesv"
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_db8a0.dir/build.make:97: recipe for target 'cmTC_db8a0' failed
+make[1]: *** [cmTC_db8a0] Error 1
+make[1]: Leaving directory '/home/computervision/Imagens/hog_detector/dlib-19.17/tools/imglab/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_db8a0/fast' failed
+make: *** [cmTC_db8a0/fast] Error 2
+
+
+Determining if the function sgesv_ exists failed with the following output:
+Change Dir: /home/computervision/Imagens/hog_detector/dlib-19.17/tools/imglab/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_26843/fast"
+/usr/bin/make -f CMakeFiles/cmTC_26843.dir/build.make CMakeFiles/cmTC_26843.dir/build
+make[1]: Entering directory '/home/computervision/Imagens/hog_detector/dlib-19.17/tools/imglab/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_26843.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sgesv_   -o CMakeFiles/cmTC_26843.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_26843
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_26843.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sgesv_    -rdynamic CMakeFiles/cmTC_26843.dir/CheckFunctionExists.c.o  -o cmTC_26843 
+CMakeFiles/cmTC_26843.dir/CheckFunctionExists.c.o: Na função "main":
+CheckFunctionExists.c:(.text+0x10): referência não definida para "sgesv_"
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_26843.dir/build.make:97: recipe for target 'cmTC_26843' failed
+make[1]: *** [cmTC_26843] Error 1
+make[1]: Leaving directory '/home/computervision/Imagens/hog_detector/dlib-19.17/tools/imglab/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_26843/fast' failed
+make: *** [cmTC_26843/fast] Error 2
+
+
