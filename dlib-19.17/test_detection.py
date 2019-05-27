@@ -1,18 +1,13 @@
 import os
 import sys
 import glob
-
+from detector import detectar_letreiro
 import dlib
 
 
-bus_folder = "/home/computervision/Imagens/hog_detector/dlib-19.17/bus_examples/"
-# Now let's use the detector as you would in a normal application.  First we
-# will load it from disk.
-detector = dlib.simple_object_detector("detector.svm")
+bus_folder = "./bus_examples/"
 
-# We can look at the HOG filter we learned.  It should look like a face.  Neat!
-win_det = dlib.image_window()
-win_det.set_image(detector)
+
 
 # Now let's run the detector over the images in the faces folder and display the
 # results.
@@ -21,7 +16,9 @@ win = dlib.image_window()
 for f in glob.glob(os.path.join(bus_folder, "*.jpg")):
     print("Processing file: {}".format(f))
     img = dlib.load_rgb_image(f)
-    dets = detector(img)
+    print(type(img))
+    print(img)
+    dets = detectar_letreiro(img)
     print("Number of letreiros detected: {}".format(len(dets)))
     for k, d in enumerate(dets):
         print("Detection {}: Left: {} Top: {} Right: {} Bottom: {}".format(
