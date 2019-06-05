@@ -1,10 +1,6 @@
-import os
-import sys
-import glob
 import numpy as np
 import dlib
 
-import matplotlib.pyplot as plt
 
 detector = dlib.simple_object_detector("detector.svm") #carrega o detector já treinado
 
@@ -29,3 +25,25 @@ def segmentar_letreiro(img):
     
     return np.array(letreiros)
 
+#def ler_linha(img):
+#    ''' Ler o letreiro em uma imagem
+#    - img: Imagem do letreiro previamente segmentada
+#    retorna: O texto do letreiro como uma string
+#    '''
+#    
+#    img = img[:,:, 2]
+#    kernel = np.ones((7,7),np.uint8)
+#    
+#    ret, threshImg = cv2.threshold(img, 175, 255, cv2.THRESH_BINARY)
+#    
+#    threshImg = cv2.resize(threshImg, (750, 150))
+#    threshImg = cv2.morphologyEx(threshImg, cv2.MORPH_CLOSE, kernel)
+#    
+#    threshImg = cv2.bitwise_not(threshImg)
+#    
+#    binaryImg = threshImg
+#    linha = pyOcr.image_to_string(binaryImg, lang='por')
+#    
+#    return linha
+#    
+#    
